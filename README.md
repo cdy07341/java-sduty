@@ -1,2 +1,0 @@
-# java-sduty
-java study
