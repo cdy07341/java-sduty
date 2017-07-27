@@ -5,7 +5,7 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.METHOD)
 public @interface MyAnnotation {
-	String studentName();
+	String studentName() default "";
 	String age();
-	String[] school();
+	String[] school() default {};
 }

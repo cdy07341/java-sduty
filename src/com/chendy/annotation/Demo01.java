@@ -12,4 +12,9 @@ public class Demo01 {
 	public void show() {
 		
 	}
+	
+	@MyAnnotation(age="dd", school="", studentName="test")
+	public void getHello() {
+		
+	}
 }
